@@ -1,0 +1,16 @@
+{
+  "name": "linkedin-ai-story-autopublisher",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "check": "node --check src/index.js"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.58.0"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
